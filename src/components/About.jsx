@@ -30,7 +30,7 @@ const About = () => {
           <div className="col-md-9 col-lg-6">
             <h4 className="heading-decorated text-3xl font-bold">About us</h4>
             <p className="mt-4 leading-8">
-              Welcome to Toast Duck Trading Co., Ltd., a professional and reliable
+              Welcome to Toast Duck International Business Co., Ltd., a professional and reliable
               international trading company dedicated to delivering high-quality
               products and exceptional service to clients around the globe. With a
               strong foundation in global trade and a keen understanding of market

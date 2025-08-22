@@ -47,7 +47,7 @@ const Header = () => {
                     alt="Toast Duck Logo" 
                     width="176" 
                     height="88"
-                    className="max-h-[60px] w-auto"
+                    className="max-h-[60px] w-auto scale-[1.5]"
                     onError={(e) => {
                       e.target.style.display = 'none';
                       e.target.nextSibling.style.display = 'inline';

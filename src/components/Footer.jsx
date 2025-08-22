@@ -49,7 +49,7 @@ const Footer = () => {
                 </span>
               </a>
               <p className="text-slate-300 mb-6 max-w-md leading-relaxed">
-                Toast Duck Trading Co., Ltd. is a professional international trading company 
+                Toast Duck International Business Co., Ltd. is a professional international trading company 
                 dedicated to delivering high-quality products and exceptional service to clients worldwide.
               </p>
               <div className="flex space-x-4">
@@ -156,7 +156,7 @@ const Footer = () => {
         <div className="border-t border-slate-800 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-slate-400 text-sm">
-              © 2024 Toast Duck Trading Co., Ltd. All rights reserved.
+              © {new Date().getYear()+1900} Toast Duck International Business Co., Ltd. All rights reserved.
             </p>
             <div className="flex space-x-6">
               {quickLinks.map((link, index) => (

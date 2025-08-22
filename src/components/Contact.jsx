@@ -239,7 +239,7 @@ const Contact = () => {
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Toast Duck Trading Co., Ltd. Location"
+            title="Toast Duck International Business Co., Ltd. Location"
           ></iframe>
         </div>
       </section>
