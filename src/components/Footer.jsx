@@ -156,7 +156,7 @@ const Footer = () => {
         <div className="border-t border-slate-800 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-slate-400 text-sm">
-              © {new Date().getYear()+1900} Toast Duck International Business Co., Ltd. All rights reserved.
+              © {new Date().getFullYear()} Toast Duck International Business Co., Ltd. All rights reserved.
             </p>
             <div className="flex space-x-6">
               {quickLinks.map((link, index) => (
