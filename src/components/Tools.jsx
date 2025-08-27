@@ -2,20 +2,11 @@ import  { useState } from 'react';
 
 const Tools = () => {
   const [inputText, setInputText] = useState('');
-  const [generatedText, setGeneratedText] = useState('');
   const [selectedButtons, setSelectedButtons] = useState([]);
   const [copySuccess, setCopySuccess] = useState('');
   const [buttonCopySuccess, setButtonCopySuccess] = useState('');
 
   const buttonOptions = ['6A', '10A', '16A', '20A', '25A', '32A', '40A', '63A'];
-
-  const generateText = () => {
-    if (inputText.trim()) {
-      // 这里可以根据输入内容生成文本，现在先简单处理
-      const generated = `${inputText} Series Miniature Circuit Breaker (MCB)`;
-      setGeneratedText(generated);
-    }
-  };
 
   const copyToClipboard = async (text, type = 'text') => {
     try {
@@ -46,6 +37,8 @@ const Tools = () => {
     return selectedButtons.join(',');
   };
 
+  const generatedText = `${inputText} Series Miniature Circuit Breaker (MCB)`
+
   return (
     <div className="tools-page min-h-screen bg-gray-50 py-20">
       <div className="container mx-auto px-4 max-w-4xl">
@@ -65,10 +58,7 @@ const Tools = () => {
             <input
               type="text"
               value={inputText}
-              onChange={(e) => {
-                setInputText(e.target.value)
-                generateText()
-              }}
+              onChange={(e) => setInputText(e.target.value)}
               className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               placeholder="请输入内容..."
             />
