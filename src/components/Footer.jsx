@@ -35,7 +35,7 @@ const Footer = () => {
               <a className="brand mb-6 inline-block" href="/">
                 <img 
                   src="/images/image.png" 
-                  alt="Toast Duck Logo" 
+                  alt="Mingding Logo" 
                   width="176" 
                   height="88"
                   className="max-h-[60px] w-auto brightness-0 invert"
@@ -45,11 +45,11 @@ const Footer = () => {
                   }}
                 />
                 <span className="hidden text-2xl font-bold text-white">
-                  Toast Duck
+                  Ming Ding
                 </span>
               </a>
               <p className="text-slate-300 mb-6 max-w-md leading-relaxed">
-                Toast Duck International Business Co., Ltd. is a professional international trading company 
+                Fujian Mingding Electromechanical Technology Co., Ltd. is a professional international trading company 
                 dedicated to delivering high-quality products and exceptional service to clients worldwide.
               </p>
               <div className="flex space-x-4">
@@ -118,8 +118,8 @@ const Footer = () => {
                   </svg>
                   <div>
                     <p className="text-slate-300 text-sm leading-relaxed">
-                      Room 906, No.6, Banzhong Road,<br />
-                      Fuzhou City, Fujian Province, China
+                      No.17, Fuchun Road, Fu'an City, Fujian
+                      Province, China
                     </p>
                   </div>
                 </div>
@@ -129,10 +129,29 @@ const Footer = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                   </svg>
                   <a 
-                    href="tel:+8613459831691"
                     className="text-slate-300 hover:text-white transition-colors duration-300 text-sm"
                   >
-                    (+86) 13459831691
+                    (+86) 13774774580
+                  </a>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <svg className="w-5 h-5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                  </svg>
+                  <a 
+                    className="text-slate-300 hover:text-white transition-colors duration-300 text-sm"
+                  >
+                    (+86) 15059331866
+                  </a>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <svg className="w-5 h-5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                  </svg>
+                  <a 
+                    className="text-slate-300 hover:text-white transition-colors duration-300 text-sm"
+                  >
+                    (+86) 15859511151
                   </a>
                 </div>
                 
@@ -141,10 +160,32 @@ const Footer = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                   </svg>
                   <a 
-                    href="mailto:ferrislee2024@163.com"
+                    href="mailto:mcmm20210811@gmail.com"
                     className="text-slate-300 hover:text-white transition-colors duration-300 text-sm"
                   >
-                    ferrislee2024@163.com
+                    mcmm20210811@gmail.com
+                  </a>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <svg className="w-5 h-5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                  </svg>
+                  <a 
+                    href="mailto:cnabbkobe@gmail.com"
+                    className="text-slate-300 hover:text-white transition-colors duration-300 text-sm"
+                  >
+                    cnabbkobe@gmail.com
+                  </a>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <svg className="w-5 h-5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                  </svg>
+                  <a 
+                    href="mailto:736354116@qq.com"
+                    className="text-slate-300 hover:text-white transition-colors duration-300 text-sm"
+                  >
+                    736354116@qq.com
                   </a>
                 </div>
               </div>
@@ -156,7 +197,7 @@ const Footer = () => {
         <div className="border-t border-slate-800 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-slate-400 text-sm">
-              © {new Date().getFullYear()} Toast Duck International Business Co., Ltd. All rights reserved.
+              © {new Date().getFullYear()} Fujian Mingding Electromechanical Technology Co., Ltd. All rights reserved.
             </p>
             <div className="flex space-x-6">
               {quickLinks.map((link, index) => (

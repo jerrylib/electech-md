@@ -1,18 +1,18 @@
 const Team = () => {
   const teamMembers = [
     {
-      image: "/images/avator1.png",
-      name: "Ferris",
+      image: "/images/avator1.jpg",
+      name: "Linda",
       position: "CEO, Founder"
     },
     {
       image: "/images/avator2.png",
-      name: "Linda",
-      position: "CFO"
+      name: "Kobe",
+      position: "Sales Manager"
     },
     {
       image: "/images/avator3.png",
-      name: "Kobe",
+      name: "Kevin",
       position: "Marketing Manager"
     }
   ];

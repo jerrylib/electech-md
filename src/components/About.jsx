@@ -30,14 +30,14 @@ const About = () => {
           <div className="col-md-9 col-lg-6">
             <h4 className="heading-decorated text-3xl font-bold">About us</h4>
             <p className="mt-4 leading-8">
-              Welcome to Toast Duck International Business Co., Ltd., a professional and reliable
+              Welcome to Mingding Electromechanical Technology Co., Ltd., a professional and reliable
               international trading company dedicated to delivering high-quality
               products and exceptional service to clients around the globe. With a
               strong foundation in global trade and a keen understanding of market
-              trends, Toast Duck has built long-term partnerships across various
+              trends, Mingding has built long-term partnerships across various
               industries. Our commitment to integrity, efficiency, and customer
               satisfaction sets us apart in today's competitive global marketplace.
-              Choose Toast Duck — your trusted partner in international trade.
+              Choose Mingding — your trusted partner in international trade.
             </p>
             <div className="row row-30">
               {features.map((feature, index) => (

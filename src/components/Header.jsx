@@ -44,7 +44,7 @@ const Header = () => {
                 <a className="brand-name block" href="/">
                   <img 
                     src="/images/image.png" 
-                    alt="Toast Duck Logo" 
+                    alt="Mingding Logo" 
                     width="176" 
                     height="88"
                     className="max-h-[60px] w-auto scale-[1.5]"
@@ -54,7 +54,7 @@ const Header = () => {
                     }}
                   />
                   <span className="hidden text-2xl font-bold text-gray-800">
-                    Toast Duck
+                    Ming Ding
                   </span>
                 </a>
               </div>
@@ -66,7 +66,7 @@ const Header = () => {
                     Home
                   </a>
                 </li>
-                <li className="flex">
+                <li className="flex hidden">
                   <a href="https://toastduck.com" target="_blank" rel="noopener noreferrer" className="text-black content-center hover:text-sky-700 transition-colors duration-200">
                     Store
                   </a>

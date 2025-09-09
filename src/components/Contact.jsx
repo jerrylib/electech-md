@@ -101,7 +101,7 @@ const Contact = () => {
                   <dl class="list-terms-inline">
                     <dt>Address</dt>
                     <dd>
-                      Room 906, No.6, Banzhong Road, Fuzhou City, Fujian
+                      No.17, Fuchun Road, Fu'an City, Fujian
                       Province, China
                     </dd>
                   </dl>
@@ -111,7 +111,9 @@ const Contact = () => {
                     <dt>Whatsapp</dt>
                     <dd>
                       <ul class="list-semicolon">
-                        <li><a href="tel:#">(+86) 13459831691</a></li>
+                        <li><a>(+86) 13774774580</a></li>
+                        <li><a>(+86) 15059331866</a></li>
+                        <li><a>(+86) 15859511151</a></li>
                       </ul>
                     </dd>
                   </dl>
@@ -121,7 +123,9 @@ const Contact = () => {
                     <dt>E-mail</dt>
                     <dd>
                       <ul class="list-semicolon">
-                        <li><a href="tel:#">ferrislee2024@163.com</a></li>
+                        <li><a>mcmm20210811@gmail.com</a></li>
+                        <li><a>cnabbkobe@gmail.com</a></li>
+                        <li><a>736354116@qq.com</a></li>
                       </ul>
                     </dd>
                   </dl>
@@ -232,14 +236,14 @@ const Contact = () => {
       <section className="p-0">
         <div className="google-map-container">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2129.717374049382!2d119.32560030219558!3d26.139907931829057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-CN!2s!4v1752747089758!5m2!1szh-CN!2s"
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1255.9572477409522!2d119.63289412518819!3d27.081199802559084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z56aP5a6J5biCIOmTrem8jg!5e0!3m2!1szh-CN!2shk!4v1757397436482!5m2!1szh-CN!2shk"
             width="100%"
             height="450"
             className="border-0 block"
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Toast Duck International Business Co., Ltd. Location"
+            title="Fujian Mingding Electromechanical Technology Co., Ltd. Location"
           ></iframe>
         </div>
       </section>

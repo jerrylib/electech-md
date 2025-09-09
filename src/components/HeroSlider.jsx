@@ -59,7 +59,7 @@ const HeroSlider = () => {
                 <div
                   className='text-6xl font-bold tracking-wide'
                 >
-                  Welcome to Toast Duck
+                  Welcome to Mingding
                 </div>
                 <div
                   className="text-width-2 block-centered text-xl mt-8 font-bold tracking-wide"
