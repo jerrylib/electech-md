@@ -42,4 +42,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ${{ github.workspace }}/dist
-          cname: company.toastduck.com
+          cname: www.electech-md.com
