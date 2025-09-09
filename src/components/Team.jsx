@@ -1,7 +1,7 @@
 const Team = () => {
   const teamMembers = [
     {
-      image: "/images/avator1.jpg",
+      image: "/images/avator1.png",
       name: "Linda",
       position: "CEO, Founder",
       socialLinks: [
